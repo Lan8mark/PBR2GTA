@@ -1,0 +1,8 @@
+{
+  "missing_error": "NVTT was not found. Install NVIDIA Texture Tools, then check installation.",
+  "manual_popup": [
+    "FINISHED"
+  ],
+  "close_buttons": 1,
+  "retry_ready": true
+}

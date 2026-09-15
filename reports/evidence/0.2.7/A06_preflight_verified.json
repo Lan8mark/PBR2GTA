@@ -1,0 +1,6 @@
+{
+  "messages": [
+    "Error: PBR2GTA: Error: Cannot calibrate shader parameters:\naudit_missing_param.001 → normal_spec.sps: SpecularIntensityMult: missing or incompatible parameter node\n\n",
+    "Error: PBR2GTA: Error: Cannot calibrate shader parameters:\naudit_missing_param.001 → normal_spec.sps: SpecularIntensityMult: missing or incompatible parameter node\n\n"
+  ]
+}

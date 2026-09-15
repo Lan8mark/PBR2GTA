@@ -1,0 +1,34 @@
+{
+  "exports": [
+    {
+      "file": "exports\\multi_modern\\audit_multi.ydr",
+      "fresnel": [
+        0.37,
+        0.79,
+        0.88,
+        0.63
+      ]
+    },
+    {
+      "file": "exports\\multi_modern\\audit_multi.ydr.xml",
+      "fresnel": [
+        0.37,
+        0.79,
+        0.88,
+        0.63
+      ]
+    },
+    {
+      "file": "exports\\multi_legacy\\audit_multi.ydr.xml",
+      "fresnel": [
+        0.37,
+        0.79,
+        0.88,
+        0.63
+      ]
+    }
+  ],
+  "disabled_unchanged": true,
+  "shared_converted_once": true,
+  "low_included": true
+}

@@ -1,0 +1,5 @@
+{
+  "original": "{'diffuse': WindowsPath('<WORKSPACE>/PBR2GTA_Repository/build/preview-fix-027/preview/1d6deefb-c130-430b-9630-be60f773c0b7/audit_other_diffuse.dds'), 'specular': WindowsPath('<WORKSPACE>/PBR2GTA_Repository/build/preview-fix-027/preview/1d6deefb-c130-430b-9630-be60f773c0b7/audit_other_specular.dds'), 'normal': WindowsPath('<WORKSPACE>/PBR2GTA_Repository/build/preview-fix-027/preview/1d6deefb-c130-430b-9630-be60f773c0b7/audit_other_normal.dds')}",
+  "copy": "{'diffuse': WindowsPath('<WORKSPACE>/PBR2GTA_Repository/build/preview-fix-027/preview/615d27b4-a94a-4cdd-939e-0c9a346ce4cd/audit_other_diffuse.dds'), 'specular': WindowsPath('<WORKSPACE>/PBR2GTA_Repository/build/preview-fix-027/preview/615d27b4-a94a-4cdd-939e-0c9a346ce4cd/audit_other_specular.dds'), 'normal': WindowsPath('<WORKSPACE>/PBR2GTA_Repository/build/preview-fix-027/preview/615d27b4-a94a-4cdd-939e-0c9a346ce4cd/audit_other_normal.dds')}",
+  "original_unchanged": true
+}

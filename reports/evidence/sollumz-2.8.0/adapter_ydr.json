@@ -1,0 +1,20 @@
+{
+  "status": [
+    "FINISHED"
+  ],
+  "files": [
+    "audit_other_diffuse.dds",
+    "audit_other_normal.dds",
+    "audit_other_specular.dds",
+    "audit_separate.ydr",
+    "audit_separate.ydr.xml",
+    "audit_separate.ytd.xml",
+    "audit_separate\\audit_other_diffuse.dds",
+    "audit_separate\\audit_other_normal.dds",
+    "audit_separate\\audit_other_specular.dds"
+  ],
+  "readback": true,
+  "disabled_preserved": true,
+  "preferences_restored": true,
+  "experimental_only": true
+}

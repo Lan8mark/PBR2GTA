@@ -1,0 +1,16 @@
+{
+  "version": "0.2.9",
+  "reproduced": true,
+  "unwanted_png_files": [
+    {
+      "path": "build\\png-sources-029\\run-1789483100067894800\\ydr\\audit_separate\\rough.png",
+      "sha256": "d1bdcc2537fb0f4c1dc6e7eb48f20add4c3d3436c741ec04b5ec25f49d175ede",
+      "same_as_source": true
+    },
+    {
+      "path": "build\\png-sources-029\\run-1789483100067894800\\ydd\\audit_dictionary\\rough.png",
+      "sha256": "d1bdcc2537fb0f4c1dc6e7eb48f20add4c3d3436c741ec04b5ec25f49d175ede",
+      "same_as_source": true
+    }
+  ]
+}

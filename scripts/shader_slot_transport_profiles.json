@@ -1,0 +1,304 @@
+{
+  "schema": "pbr2gta.shader-slot-transport.v2",
+  "common_nvtt_args": [
+    "-highest",
+    "-nocuda",
+    "-mipfilter",
+    "kaiser",
+    "-min-mip-size",
+    "4"
+  ],
+  "profiles": {
+    "SKIP_INACTIVE": {
+      "source_kind": "none",
+      "operation": "skip",
+      "dds_format": null,
+      "ui": "hidden",
+      "reason": "Declared by the registry but not read by the active DXBC shader.",
+      "semantic_portrait_ids": [
+        "SEM_15F46AFD226CBB42",
+        "SEM_6585B3C2E7481ACC",
+        "SEM_C4A823C09A445CEE",
+        "SEM_FE08F33CB5098D31"
+      ]
+    },
+    "SKIP_ENGINE_RESOURCE": {
+      "source_kind": "engine_resource",
+      "operation": "preserve_existing",
+      "dds_format": null,
+      "ui": "read_only",
+      "reason": "Screen, damage, shadow or stipple resource supplied by the engine/runtime rather than authored as a material texture.",
+      "semantic_portrait_ids": [
+        "SEM_0B39DAD8B4540CCE",
+        "SEM_89731F8135289D5E",
+        "SEM_911731C19B6AA369",
+        "SEM_BC470E9CE43153F1",
+        "SEM_E5E2CBEE9EB963E1"
+      ]
+    },
+    "TODO_SPECIAL_SPEC_BA": {
+      "source_kind": "existing_sollumz_assignment",
+      "operation": "preserve_existing",
+      "dds_format": null,
+      "ui": "disabled_todo",
+      "reason": "TODO: this SpecSampler has shader-specific B and/or A semantics without an approved PBR2GTA generation recipe. Leave the existing Sollumz texture assignment untouched until that recipe is implemented and game-tested.",
+      "semantic_portrait_ids": [
+        "SEM_0D3B8A9B6DAF4B80",
+        "SEM_2B413963EE68B186",
+        "SEM_2D79D555B58D8DF6",
+        "SEM_3515587B49B051E7",
+        "SEM_3735A2D94A77DAE6",
+        "SEM_39693CAA467C3164",
+        "SEM_66A9FBE02B7E8941",
+        "SEM_8BF329E7C64D1191",
+        "SEM_98D25017590B50F1",
+        "SEM_DF4B198F382521F9",
+        "SEM_EC2EFDBB96D47E4C"
+      ]
+    },
+    "COLOR_RGB_BC1": {
+      "source_kind": "png_2d",
+      "operation": "direct",
+      "dds_format": "BC1/DXT1",
+      "color_space": "srgb",
+      "alpha": "discard",
+      "nvtt_args": ["-color", "-noalpha", "-bc1"],
+      "semantic_portrait_ids": [
+        "SEM_03583B411F57462F",
+        "SEM_5676B87B00907E27",
+        "SEM_7DB42D9BDA526057",
+        "SEM_7FC42C87E502B0D7",
+        "SEM_A3FBCB161346582D",
+        "SEM_CE68A5AAAACC13AE",
+        "SEM_DED4846B449C5250",
+        "SEM_E864034EB49D0407",
+        "SEM_EF09C2A8BCC20532"
+      ]
+    },
+    "DIFFUSE_RGBA_AUTO": {
+      "source_kind": "png_2d",
+      "operation": "direct_color_auto_alpha",
+      "dds_format": {
+        "without_meaningful_alpha": "BC1/DXT1",
+        "with_meaningful_alpha": "BC3/DXT5"
+      },
+      "color_space": "srgb_rgb_straight_alpha",
+      "alpha": "preserve_only_if_shader_uses_and_source_contains",
+      "alpha_detection": "These semantic portraits consume alpha. After lossless uint8/uint16 PNG decode, use BC3 only when an alpha plane exists and any texel is below the dtype maximum. RGB and fully opaque RGBA use opaque BC1. Portraits whose shaders do not consume alpha remain in COLOR_RGB_BC1 and always discard source alpha.",
+      "nvtt_args_by_variant": {
+        "without_meaningful_alpha": ["-color", "-noalpha", "-bc1"],
+        "with_meaningful_alpha": ["-color", "-alpha", "-bc3"]
+      },
+      "semantic_portrait_ids": [
+        "SEM_0C9EA4E9D23D84A5",
+        "SEM_0F518D6924EB2033",
+        "SEM_1FCA54F6FE69148A",
+        "SEM_29206B3B351A0F2E",
+        "SEM_30101C758F4A4D0C",
+        "SEM_32077C77D80BB001",
+        "SEM_33A8197AD349F4DA",
+        "SEM_34DDE3C132C653B0",
+        "SEM_3F073454422ED93F",
+        "SEM_4179DAB27448A38B",
+        "SEM_42DF859D403112AE",
+        "SEM_44A8211FFB386091",
+        "SEM_6C45745EC62E4A54",
+        "SEM_73CAC76856151A52",
+        "SEM_81469946AA772F3A",
+        "SEM_82ABD083B6BDDB1E",
+        "SEM_8CA0E35FB45E5D21",
+        "SEM_8D4513A8442F538B",
+        "SEM_94A6CC649B7B52CB",
+        "SEM_95A5EECD1DF2B105",
+        "SEM_9B2FFD437A334725",
+        "SEM_9B724B7F82174909",
+        "SEM_9BB939E15D07C70E",
+        "SEM_A4B9A802748E4768",
+        "SEM_A9FCFF50CDC575D9",
+        "SEM_AAB9681C5ED121B4",
+        "SEM_AB00646FA560A535",
+        "SEM_BB4DA8CCAA2A4C2A",
+        "SEM_BDCA6A9993EA6364",
+        "SEM_BFA75C6BB98C4904",
+        "SEM_C9A6E26136C17449",
+        "SEM_DAD0B487CB04F5FD",
+        "SEM_F5C200D5FED2F46E",
+        "SEM_FAF749A86D36BEA9"
+      ]
+    },
+    "COLOR_RGBA_BC3": {
+      "source_kind": "png_2d",
+      "operation": "direct",
+      "dds_format": "BC3/DXT5",
+      "color_space": "srgb_rgb_straight_alpha",
+      "alpha": "preserve",
+      "nvtt_args": ["-color", "-alpha", "-bc3"],
+      "semantic_portrait_ids": [
+        "SEM_8018C4BA32975C7B",
+        "SEM_D531B3EFA85E995A",
+        "SEM_FFF1A8AA138DEBE2"
+      ]
+    },
+    "MIXED_COLOR_HEIGHT_BC3": {
+      "source_kind": "png_2d",
+      "operation": "direct",
+      "dds_format": "BC3/DXT5",
+      "color_space": "srgb_rgb_linear_straight_alpha",
+      "alpha": "preserve",
+      "nvtt_args": ["-color", "-alpha", "-bc3"],
+      "semantic_portrait_ids": [
+        "SEM_C788B5497F4D43B2"
+      ]
+    },
+    "LINEAR_R_OR_RG_BC5": {
+      "source_kind": "png_2d",
+      "operation": "direct",
+      "dds_format": "BC5U/ATI2",
+      "color_space": "linear",
+      "alpha": "discard",
+      "channel_rule": "Use for data read only from R, G or RG. Preserve the shader-visible component positions; unused stored components are deterministic zero.",
+      "nvtt_args": ["-color", "-noalpha", "-no-mip-gamma-correct", "-bc5"],
+      "semantic_portrait_ids": [
+        "SEM_27CF209898C4A274",
+        "SEM_3D5A21DE38BA51EB",
+        "SEM_6C2C8726336939B7",
+        "SEM_6DFC9C4C83F6F58E",
+        "SEM_8A082D30141BEA63",
+        "SEM_916079B5700D30F1",
+        "SEM_94B8560FC0A4B5BC",
+        "SEM_BF323425E0B499ED",
+        "SEM_CFDD47D7E1C5858C",
+        "SEM_D2524F945066B581",
+        "SEM_D58F5A7333EE6DED",
+        "SEM_08181324D17DA970",
+        "SEM_16B108F68C986D30",
+        "SEM_21BEBB94C09E2C94",
+        "SEM_58EEFDF3A38BDF92",
+        "SEM_699C23DEAE7FB095",
+        "SEM_8ECBE338DBE9E0BD",
+        "SEM_DDBBED16C22D7212",
+        "SEM_FA7D74320A66D6BB"
+      ]
+    },
+    "LINEAR_RGB_BC1": {
+      "source_kind": "png_2d",
+      "operation": "direct",
+      "dds_format": "BC1/DXT1",
+      "color_space": "linear",
+      "alpha": "discard",
+      "nvtt_args": ["-color", "-noalpha", "-no-mip-gamma-correct", "-bc1"],
+      "semantic_portrait_ids": [
+        "SEM_2E3EA99A7A846104",
+        "SEM_3054A8EA04D6B82F",
+        "SEM_50EA89D49878934A",
+        "SEM_89D6190F262DF185",
+        "SEM_BB01E745D48E9FF5",
+        "SEM_DC1F84AE691EE13B"
+      ]
+    },
+    "LINEAR_RGBA_BC3": {
+      "source_kind": "png_2d",
+      "operation": "direct",
+      "dds_format": "BC3/DXT5",
+      "color_space": "linear",
+      "alpha": "preserve",
+      "nvtt_args": ["-color", "-alpha", "-no-mip-gamma-correct", "-bc3"],
+      "semantic_portrait_ids": [
+        "SEM_1439DE4A1FD0DC0F",
+        "SEM_15866391C05656BC",
+        "SEM_3B0F343B44595192",
+        "SEM_4B4A57B8D59EECB6",
+        "SEM_65D26752D3E6373C",
+        "SEM_6D18F6D65E68296A",
+        "SEM_7704C0858F8464D3",
+        "SEM_840D1A0C69E3B2FE",
+        "SEM_93863569C8DB6A47",
+        "SEM_944818A3998F8980",
+        "SEM_9BB09D3A4D00B8BF",
+        "SEM_AAF0C8E463CB7FE0",
+        "SEM_ADCA91AAC8552F7A",
+        "SEM_C237BFBD5C925E9E",
+        "SEM_FC1AEBB65E4C9E4B"
+      ]
+    },
+    "NORMAL_XY_AUTO": {
+      "source_kind": "png_2d_dx_normal",
+      "operation": "direct_normal_auto_alpha",
+      "dds_format": {
+        "without_meaningful_alpha": "BC5U/ATI2",
+        "with_meaningful_alpha": "BC3/DXT5"
+      },
+      "color_space": "linear",
+      "alpha": "detect_exact_opaque",
+      "alpha_detection": "After lossless uint8/uint16 PNG decode, alpha is meaningful iff the image has an alpha plane and any texel differs from the dtype maximum. RGB and fully opaque RGBA select BC5U; otherwise select BC3.",
+      "nvtt_args_by_variant": {
+        "without_meaningful_alpha": ["-noalpha", "-no-mip-gamma-correct", "-bc5"],
+        "with_meaningful_alpha": ["-alpha", "-no-mip-gamma-correct", "-bc3"]
+      },
+      "semantic_portrait_ids": [
+        "SEM_08027913C4D72BDC",
+        "SEM_172D1D6FE0188A91",
+        "SEM_32F7442900F7BA7C",
+        "SEM_54AD86BAB78C04FC",
+        "SEM_5B4603C4239AB415",
+        "SEM_70339F15FEA87B00",
+        "SEM_716E7D47E446AA46",
+        "SEM_9612F9D0C224D839",
+        "SEM_9B853EDD8972E70F",
+        "SEM_B0126759817F411E",
+        "SEM_BC1FC7E4B6D69C43",
+        "SEM_C627EBE8953FDE17",
+        "SEM_E4616B66336F2A33",
+        "SEM_E81DD0EBFDA45264",
+        "SEM_E8ED6DDD0F0F5B92",
+        "SEM_FBDBAC8737ED9566"
+      ]
+    },
+    "PALETTE_RGBA8": {
+      "source_kind": "png_2d",
+      "operation": "direct_exact_texels",
+      "dds_format": "A8R8G8B8",
+      "color_space": "linear_lookup",
+      "alpha": "preserve",
+      "nvtt_args": ["-color", "-alpha", "-no-mip-gamma-correct", "-nomips", "-rgb"],
+      "semantic_portrait_ids": [
+        "SEM_2D892207A85FF1DB",
+        "SEM_36675D1FEDDE4AF6",
+        "SEM_52E1A0902668FB02",
+        "SEM_55CA30E417FD7662",
+        "SEM_5882847584F3EEED",
+        "SEM_7EC7131FD2DC5A89",
+        "SEM_9F03611A8233454C",
+        "SEM_DFBA8FAD83518B9E",
+        "SEM_E5F13C1CA164E7EB"
+      ]
+    },
+    "CUBEMAP_RGB_READY_DDS": {
+      "source_kind": "ready_cubemap_dds",
+      "operation": "validate_and_copy",
+      "dds_format": "BC1/DXT1 cubemap",
+      "ui": "dds_file",
+      "semantic_portrait_ids": [
+        "SEM_C5705D6B86BC8BFE"
+      ]
+    },
+    "VOLUME_RGB_READY_DDS": {
+      "source_kind": "ready_volume_dds",
+      "operation": "validate_and_copy",
+      "dds_format": "BC1/DXT1 volume",
+      "ui": "dds_file",
+      "semantic_portrait_ids": [
+        "SEM_92C18A19C0FDFDC4"
+      ]
+    },
+    "ARRAY_RGBA_READY_DDS": {
+      "source_kind": "ready_array_dds",
+      "operation": "validate_and_copy",
+      "dds_format": "BC3/DXT5 array",
+      "ui": "dds_file",
+      "semantic_portrait_ids": [
+        "SEM_7603335D45C6D6FA"
+      ]
+    }
+  }
+}

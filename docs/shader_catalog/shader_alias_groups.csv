@@ -1,0 +1,13 @@
+equivalence_id,member_count,base_name,render_bucket,members,basis
+SHADER_EQ_0038,3,default,0,default.sps | default_noedge.sps | gta_default.sps,"same base shader, render bucket, parameters and layouts"
+SHADER_EQ_0040,2,default_spec,0,default_spec.sps | spec_const.sps,"same base shader, render bucket, parameters and layouts"
+SHADER_EQ_0064,2,glass_emissivenight,1,glass_emissivenight.sps | glass_emissivenight_alpha.sps,"same base shader, render bucket, parameters and layouts"
+SHADER_EQ_0075,2,normal,0,gta_normal.sps | normal.sps,"same base shader, render bucket, parameters and layouts"
+SHADER_EQ_0076,2,radar,0,gta_radar.sps | radar.sps,"same base shader, render bucket, parameters and layouts"
+SHADER_EQ_0077,2,reflect,1,gta_reflect_alpha.sps | reflect_alpha.sps,"same base shader, render bucket, parameters and layouts"
+SHADER_EQ_0078,2,spec,0,gta_spec.sps | spec.sps,"same base shader, render bucket, parameters and layouts"
+SHADER_EQ_0085,2,normal,3,normal_cutout.sps | normal_screendooralpha.sps,"same base shader, render bucket, parameters and layouts"
+SHADER_EQ_0101,2,normal_pxm_tnt,0,normal_pxm_tnt.sps | normal_tnt_pxm.sps,"same base shader, render bucket, parameters and layouts"
+SHADER_EQ_0110,2,normal_spec,3,normal_spec_cutout.sps | normal_spec_screendooralpha.sps,"same base shader, render bucket, parameters and layouts"
+SHADER_EQ_0125,2,normal_spec_pxm_tnt,0,normal_spec_pxm_tnt.sps | normal_spec_tnt_pxm.sps,"same base shader, render bucket, parameters and layouts"
+SHADER_EQ_0231,2,vehicle_vehglass,1,vehicle_lights.sps | vehicle_vehglass.sps,"same base shader, render bucket, parameters and layouts"

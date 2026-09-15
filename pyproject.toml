@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pbr2gta-addon"
+version = "0.2.13"
+description = "Local PBR texture conversion companion for Sollumz"
+requires-python = ">=3.11"
+license = { text = "GPL-3.0-or-later" }
+dependencies = [
+  "numpy==2.3.5",
+  "opencv-python-headless==4.13.0.92",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.4,<9",
+  "pyinstaller>=6.15,<7",
+  "ruff>=0.12,<1",
+]
+
+[project.scripts]
+pbr2gta-core = "pbr2gta_core.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+pbr2gta_core = ["profiles.json", "runtime_shader_slots.json"]
+pbr2gta_blender = ["runtime_shader_slots.json", "shader_guide_data.json", "shader_guide_en.json", "assets/**/*.png"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+exclude = ["src/pbr2gta_core/vendor"]
+
+[tool.ruff.lint]
+ignore = ["RUF012"]

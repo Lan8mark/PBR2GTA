@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "old_version": "0.2.8",
+  "version": "0.2.9",
+  "blender": "5.2.1 LTS",
+  "installed": "<USER_PROFILE>\\AppData\\Roaming\\Blender Foundation\\Blender\\5.2\\extensions\\user_default\\pbr2gta",
+  "files_verified": 238,
+  "preferences_preserved": true,
+  "scene_path_before": "",
+  "scene_path_after": "",
+  "zip_sha256": "0f1984d398abbc5525ea14b431c9703c1185f4ebe52b99deca7322a52dbd7c34"
+}

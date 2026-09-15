@@ -1,0 +1,66 @@
+# backtrace
+Exception Record:
+
+ExceptionCode         : EXCEPTION_ACCESS_VIOLATION (0xc0000005)
+Exception Address     : 0x00007FF6F07971B2
+Exception Module      : blender.exe
+Exception Flags       : 0x00000000
+Exception Parameters  : 0x2
+	Parameters[0] (action)  : 0x0000000000000000 (read)
+	Parameters[1] (address) : 0x0000000000000034
+
+
+Stack trace:
+blender.exe         :0x00007FF6F07971A0  blender::BLI_ghashIterator_init
+blender.exe         :0x00007FF6F060D760  blender::IMB_cacheIter_new
+blender.exe         :0x00007FF6F0721590  blender::BKE_image_is_dirty_writable
+blender.exe         :0x00007FF6F3740AD0  ccl::image_is_builtin
+blender.exe         :0x00007FF6F3733980  ccl::add_node
+blender.exe         :0x00007FF6F3730BB0  ccl::add_nodes
+blender.exe         :0x00007FF6F372D650  ccl::add_nodes
+blender.exe         :0x00007FF6F372C790  ccl::BlenderSync::sync_materials
+blender.exe         :0x00007FF6F246A1A0  ccl::BlenderSync::sync_data
+blender.exe         :0x00007FF6F243A4A0  ccl::BlenderSession::render
+blender.exe         :0x00007FF6F102B9E0  ccl::render_func
+python313.dll       :0x00007FFEF95DE840  PyCFunction_GetFlags
+python313.dll       :0x00007FFEF9583790  PyObject_MakeTpCall
+python313.dll       :0x00007FFEF9583B90  PyObject_Vectorcall
+python313.dll       :0x00007FFEF970C5A0  PyEval_EvalFrameDefault
+python313.dll       :0x00007FFEF9583D40  PyObject_CallOneArg
+python313.dll       :0x00007FFEF9583A30  PyVectorcall_Function
+python313.dll       :0x00007FFEF9583B90  PyObject_Vectorcall
+blender.exe         :0x00007FF6F0F847D0  blender::bpy_class_call
+blender.exe         :0x00007FF6F23C7150  blender::engine_render
+blender.exe         :0x00007FF6F05A8E70  blender::engine_render_view_layer
+blender.exe         :0x00007FF6F05A8720  blender::RE_engine_render
+blender.exe         :0x00007FF6F05A6420  blender::RE_PreviewRender
+blender.exe         :0x00007FF6F0DBE9E0  blender::shader_preview_render
+blender.exe         :0x00007FF6F0DBDF20  blender::common_preview_startjob
+blender.exe         :0x00007FF6F0DBD220  blender::icon_preview_startjob_all_sizes
+blender.exe         :0x00007FF6F0C9CA60  blender::do_job_thread
+blender.exe         :0x00007FF6F482D040  _ptw32_threadStart
+ucrtbase.dll        :0x00007FFFE2D2CBE0  wcsrchr
+KERNEL32.DLL        :0x00007FFFE46ACD70  BaseThreadInitThunk
+ntdll.dll           :0x00007FFFE5A4CAC0  RtlUserThreadStart
+
+
+Threads:
+Thread : 0000bad4
+VCRUNTIME140.dll    :0x00007FFFCB550560  _NLG_Return2
+                    :0x0000000D95FFF658  Symbols not available
+
+
+Thread : 0000701c
+ntdll.dll           :0x00007FFFE5B00E30  NtWaitForSingleObject
+KERNELBASE.dll      :0x00007FFFE2E7BDF0  WaitForSingleObjectEx
+IlmThread.dll       :0x00007FFFCB814920  IlmThread_3_4::Semaphore::wait
+IlmThread.dll       :0x00007FFFCB8133C0  IlmThread_3_4::ThreadPool::setThreadProvider
+IlmThread.dll       :0x00007FFFCB811280  IlmThread_3_4::supportsThreads
+ucrtbase.dll        :0x00007FFFE2D2CBE0  wcsrchr
+KERNEL32.DLL        :0x00007FFFE46ACD70  BaseThreadInitThunk
+ntdll.dll           :0x00007FFFE5A4CAC0  RtlUserThreadStart
+
+
+Thread : 00006a9c
+ntdll.dll           :0x00007FFFE5B00E30  NtWaitForSingleObject
+KERNELBASE.dll      :0x00007FFFE2E7BDF0  WaitForSingleObjectE

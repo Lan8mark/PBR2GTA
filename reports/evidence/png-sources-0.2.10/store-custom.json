@@ -1,0 +1,233 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "case": "installed",
+      "blender": "5.2.1 LTS",
+      "sollumz": "2.8.2",
+      "zip_sha256": "231669d6ead96f143c3ba769949636e7139f419e8eea9dc7f16bfa91da60e3f0",
+      "installed_files_verified": 239,
+      "addon_version": "0.2.10",
+      "process_id": 42108,
+      "operator_properties": [
+        "rna_type",
+        "target_formats",
+        "target_versions",
+        "limit_to_selected",
+        "exclude_skeleton",
+        "ymap_exclude_entities",
+        "ymap_box_occluders",
+        "ymap_model_occluders",
+        "ymap_car_generators",
+        "apply_transforms",
+        "mesh_domain",
+        "directory",
+        "direct_export",
+        "use_custom_settings"
+      ]
+    },
+    {
+      "case": "live_calibration",
+      "surface_immediate": true,
+      "manual_edit_corrected": true,
+      "disabled_not_controlled": true
+    },
+    {
+      "case": "shader_guide",
+      "resolved": 296
+    },
+    {
+      "case": "failed_resume_restore",
+      "passed": true
+    },
+    {
+      "case": "preview",
+      "passed": true
+    },
+    {
+      "case": "ydr",
+      "assets": [
+        {
+          "name": "gen8\\audit_separate.ydr.xml",
+          "surface": [
+            0.7900000214576721
+          ]
+        },
+        {
+          "name": "gen9\\audit_separate.ydr.xml",
+          "surface": [
+            0.7900000214576721
+          ]
+        }
+      ],
+      "dds_formats": [
+        "D3DFMT_ATI2",
+        "D3DFMT_DXT1",
+        "D3DFMT_DXT5"
+      ],
+      "disabled_preserved": true,
+      "preferences_restored": true,
+      "selection_preserved": true
+    },
+    {
+      "case": "ydd",
+      "assets": [
+        {
+          "name": "gen8\\audit_dictionary.ydd.xml",
+          "surface": [
+            0.8799999952316284,
+            0.3700000047683716,
+            0.3700000047683716,
+            0.6299999952316284
+          ]
+        },
+        {
+          "name": "gen9\\audit_dictionary.ydd.xml",
+          "surface": [
+            0.8799999952316284,
+            0.3700000047683716,
+            0.3700000047683716,
+            0.6299999952316284
+          ]
+        }
+      ],
+      "dds_formats": [
+        "D3DFMT_ATI2",
+        "D3DFMT_DXT1",
+        "D3DFMT_DXT5"
+      ],
+      "disabled_preserved": true,
+      "preferences_restored": true,
+      "selection_preserved": true
+    },
+    {
+      "case": "custom_settings_ydd",
+      "assets": [
+        {
+          "name": "gen8\\audit_dictionary.ydd.xml",
+          "surface": [
+            0.8799999952316284,
+            0.3700000047683716,
+            0.3700000047683716,
+            0.6299999952316284
+          ]
+        },
+        {
+          "name": "gen9\\audit_dictionary.ydd.xml",
+          "surface": [
+            0.8799999952316284,
+            0.3700000047683716,
+            0.3700000047683716,
+            0.6299999952316284
+          ]
+        }
+      ],
+      "dds_formats": [
+        "D3DFMT_ATI2",
+        "D3DFMT_DXT1",
+        "D3DFMT_DXT5"
+      ],
+      "disabled_preserved": true,
+      "preferences_restored": true,
+      "selection_preserved": true
+    },
+    {
+      "case": "legacy_ydd",
+      "assets": [
+        {
+          "name": "audit_dictionary.ydd.xml",
+          "surface": [
+            0.8799999952316284,
+            0.3700000047683716,
+            0.3700000047683716,
+            0.6299999952316284
+          ]
+        }
+      ],
+      "dds_formats": [
+        "D3DFMT_ATI2",
+        "D3DFMT_DXT1",
+        "D3DFMT_DXT5"
+      ],
+      "disabled_preserved": true,
+      "preferences_restored": true,
+      "selection_preserved": true
+    },
+    {
+      "case": "sidecar_without_conversion",
+      "assets": [
+        {
+          "name": "audit_separate.ydr.xml",
+          "surface": [
+            0.7900000214576721
+          ]
+        }
+      ],
+      "dds_formats": [
+        "D3DFMT_ATI2",
+        "D3DFMT_DXT1",
+        "D3DFMT_DXT5"
+      ],
+      "disabled_preserved": true,
+      "preferences_restored": true,
+      "selection_preserved": true
+    },
+    {
+      "case": "spec_gloss",
+      "assets": [
+        {
+          "name": "audit_separate.ydr.xml",
+          "surface": [
+            0.7900000214576721
+          ]
+        }
+      ],
+      "dds_formats": [
+        "D3DFMT_ATI2",
+        "D3DFMT_DXT1",
+        "D3DFMT_DXT5"
+      ],
+      "disabled_preserved": true,
+      "preferences_restored": true,
+      "selection_preserved": true
+    },
+    {
+      "case": "weapon_palette",
+      "assets": [
+        {
+          "name": "gen8\\audit_weapon.ydr.xml",
+          "surface": [
+            0.46000000834465027
+          ]
+        },
+        {
+          "name": "gen9\\audit_weapon.ydr.xml",
+          "surface": [
+            0.46000000834465027
+          ]
+        }
+      ],
+      "dds_formats": [
+        "D3DFMT_A8R8G8B8",
+        "D3DFMT_ATI2",
+        "D3DFMT_DXT1"
+      ],
+      "disabled_preserved": true,
+      "preferences_restored": true,
+      "selection_preserved": true
+    },
+    {
+      "case": "damaged_parameter",
+      "reported": "audit_other \u2192 normal_spec.sps: SpecularFresnel: missing or incompatible parameter node"
+    },
+    {
+      "case": "undo_redo",
+      "passed": true
+    },
+    {
+      "case": "save_reopen",
+      "passed": true
+    }
+  ],
+  "exit_code": 0
+}

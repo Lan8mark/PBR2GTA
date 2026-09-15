@@ -1,0 +1,13 @@
+{
+  "status": [
+    "FINISHED"
+  ],
+  "files": [
+    "audit_separate.ydr",
+    "audit_separate.ydr.xml",
+    "audit_separate.ytd.xml",
+    "audit_separate\\audit_other_diffuse.dds",
+    "audit_separate\\audit_other_normal.dds",
+    "audit_separate\\audit_other_specular.dds"
+  ]
+}

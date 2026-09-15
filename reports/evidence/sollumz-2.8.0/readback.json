@@ -1,0 +1,105 @@
+{
+  "assets": [
+    {
+      "file": "verified_legacy\\audit_dictionary.ydd.xml",
+      "fresnel": [
+        0.88,
+        0.37,
+        0.37,
+        0.63
+      ]
+    },
+    {
+      "file": "adapter_ydr\\audit_separate.ydr",
+      "fresnel": [
+        0.79
+      ]
+    },
+    {
+      "file": "adapter_ydr\\audit_separate.ydr.xml",
+      "fresnel": [
+        0.79
+      ]
+    },
+    {
+      "file": "adapter_ydd\\audit_dictionary.ydd",
+      "fresnel": [
+        0.88,
+        0.37,
+        0.37,
+        0.63
+      ]
+    },
+    {
+      "file": "adapter_ydd\\audit_dictionary.ydd.xml",
+      "fresnel": [
+        0.88,
+        0.37,
+        0.37,
+        0.63
+      ]
+    }
+  ],
+  "dds": [
+    {
+      "name": "audit_low_diffuse.dds",
+      "format": "D3DFMT_DXT1",
+      "mips": 8
+    },
+    {
+      "name": "audit_low_normal.dds",
+      "format": "D3DFMT_ATI2",
+      "mips": 8
+    },
+    {
+      "name": "audit_low_specular.dds",
+      "format": "D3DFMT_DXT5",
+      "mips": 8
+    },
+    {
+      "name": "audit_shared_diffuse.dds",
+      "format": "D3DFMT_DXT1",
+      "mips": 8
+    },
+    {
+      "name": "audit_shared_normal.dds",
+      "format": "D3DFMT_ATI2",
+      "mips": 8
+    },
+    {
+      "name": "audit_shared_specular.dds",
+      "format": "D3DFMT_DXT5",
+      "mips": 8
+    },
+    {
+      "name": "audit_low_diffuse.dds",
+      "format": "D3DFMT_DXT1",
+      "mips": 8
+    },
+    {
+      "name": "audit_low_normal.dds",
+      "format": "D3DFMT_ATI2",
+      "mips": 8
+    },
+    {
+      "name": "audit_low_specular.dds",
+      "format": "D3DFMT_DXT5",
+      "mips": 8
+    },
+    {
+      "name": "audit_shared_diffuse.dds",
+      "format": "D3DFMT_DXT1",
+      "mips": 8
+    },
+    {
+      "name": "audit_shared_normal.dds",
+      "format": "D3DFMT_ATI2",
+      "mips": 8
+    },
+    {
+      "name": "audit_shared_specular.dds",
+      "format": "D3DFMT_DXT5",
+      "mips": 8
+    }
+  ]
+}

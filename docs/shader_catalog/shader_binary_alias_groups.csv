@@ -1,0 +1,3 @@
+binary_alias_id,member_count,members,evidence_id,basis
+BINARY_ALIAS_0001,2,trees_normal_diffspec.sps | trees_normal_spec.sps,character_vegetation.cv_alias_exact,Active FXC payloads are byte-for-byte identical; runtime mathematics is identical.
+BINARY_ALIAS_0002,2,trees_normal_diffspec_tnt.sps | trees_normal_spec_tnt.sps,character_vegetation.cv_alias_exact,Active TNT FXC payloads are byte-for-byte identical.

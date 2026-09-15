@@ -1,0 +1,5 @@
+{
+  "version": "0.2.11",
+  "reproduced": true,
+  "error": "Duplicate output texture name: same_shared_d.dds"
+}

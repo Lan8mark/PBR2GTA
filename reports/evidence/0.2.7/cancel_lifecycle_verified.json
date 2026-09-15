@@ -1,0 +1,20 @@
+{
+  "cases": [
+    {
+      "trigger": "ESC",
+      "worker_pid": 35832,
+      "returncode": 0
+    },
+    {
+      "trigger": "undo_pre",
+      "worker_pid": 28648,
+      "returncode": 0
+    },
+    {
+      "trigger": "load_pre",
+      "worker_pid": 45712,
+      "returncode": 0
+    }
+  ],
+  "mode": "ESC modal event and registered lifecycle callbacks invoked through MCP"
+}

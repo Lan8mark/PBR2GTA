@@ -1,0 +1,13 @@
+schema_version = "1.0.0"
+id = "pbr2gta"
+version = "0.2.13"
+name = "PBR2GTA"
+tagline = "Local PBR texture conversion for Sollumz"
+maintainer = "PBR2GTA"
+type = "add-on"
+blender_version_min = "4.2.0"
+license = ["SPDX:GPL-3.0-or-later"]
+platforms = ["windows-x64"]
+
+[permissions]
+files = "Read PNGs, write DDS files, and maintain conversion cache"

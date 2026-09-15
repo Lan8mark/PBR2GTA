@@ -1,0 +1,39 @@
+{
+  "schema": "pbr2gta.shader-slot-catalog.v1",
+  "sources": {
+    "shaders_xml": {
+      "path": "source://Shaders.xml",
+      "sha256": "9e8ba5083b5a7c59bb3c29eeca29b205e8e852cd3ded13dd722632461fdc6bb9"
+    },
+    "shader_guide_data": {
+      "path": "source://shader_guide_data.json",
+      "sha256": "235609cc1fcaadcbdf23fbd436a9b2a299ab411e360371391f573907333e60f8"
+    },
+    "transport_profiles": {
+      "path": "source://shader_slot_transport_profiles.json",
+      "sha256": "9168dbffde68b4ff7c5c7ba9b935f6f1463cc6b135cf305330ebaaa6b0474f10"
+    },
+    "binary_aliases": {
+      "path": "source://shader_binary_aliases.json",
+      "sha256": "8c41cd9500499dc4c152f9bd512676b07bfd92db25b61941dc04e8c4f55bf037"
+    }
+  },
+  "counts": {
+    "selectors": 296,
+    "base_shaders": 249,
+    "shader_equivalence_groups": 283,
+    "alias_groups": 12,
+    "sampler_names": 72,
+    "selector_slot_pairs": 1143,
+    "resolved_semantic_pairs": 1143,
+    "unresolved_semantic_pairs": 0,
+    "semantic_portraits": 135,
+    "active_semantic_pairs": 1098,
+    "inactive_semantic_pairs": 45,
+    "transport_profiles": 15,
+    "transport_assigned_pairs": 1143,
+    "binary_alias_groups": 2,
+    "binary_alias_selectors": 4
+  },
+  "missing_semantics": []
+}

@@ -1,0 +1,20 @@
+{
+  "version": "0.2.11",
+  "sha256": "a2c4899d376a4531d3cf7004a7ef7761ad791e2d04b46465d42647c77d466a10",
+  "zip_bytes": 50993756,
+  "history_blobs_checked": 323,
+  "personal_identifiers_found": 0,
+  "historical_zips_checked": 9,
+  "sollumz_versions": [
+    "2.7.0",
+    "2.7.1",
+    "2.7.2",
+    "2.8.0",
+    "2.8.1",
+    "2.8.2",
+    "2.8.3",
+    "2.9.0"
+  ],
+  "official_matrix_passed": true,
+  "store_custom_passed": true
+}

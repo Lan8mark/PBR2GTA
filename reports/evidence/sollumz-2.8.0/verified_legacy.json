@@ -1,0 +1,159 @@
+{
+  "status": [
+    "FINISHED"
+  ],
+  "error": null,
+  "files": [
+    "audit_dictionary.ydd.xml",
+    "audit_dictionary.ytd.xml",
+    "audit_low_diffuse.dds",
+    "audit_low_normal.dds",
+    "audit_low_specular.dds",
+    "audit_shared_diffuse.dds",
+    "audit_shared_normal.dds",
+    "audit_shared_specular.dds",
+    "audit_dictionary\\audit_low_diffuse.dds",
+    "audit_dictionary\\audit_low_normal.dds",
+    "audit_dictionary\\audit_low_specular.dds",
+    "audit_dictionary\\audit_shared_diffuse.dds",
+    "audit_dictionary\\audit_shared_normal.dds",
+    "audit_dictionary\\audit_shared_specular.dds"
+  ],
+  "readback": {
+    "audit_dictionary.ydd.xml": {
+      "readback": true
+    }
+  },
+  "params_before": {
+    "audit_shared": {
+      "SpecularIntensityMult": [
+        0.9100000262260437
+      ],
+      "SpecularFalloffMult": [
+        23.0
+      ],
+      "SpecularFresnel": [
+        0.8799999952316284
+      ],
+      "specMapIntMask": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "audit_low": {
+      "SpecularIntensityMult": [
+        0.9100000262260437
+      ],
+      "SpecularFalloffMult": [
+        23.0
+      ],
+      "SpecularFresnel": [
+        0.8799999952316284
+      ],
+      "specMapIntMask": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "audit_disabled": {
+      "SpecularIntensityMult": [
+        0.9100000262260437
+      ],
+      "SpecularFalloffMult": [
+        23.0
+      ],
+      "SpecularFresnel": [
+        0.8799999952316284
+      ],
+      "specMapIntMask": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "audit_other": {
+      "SpecularIntensityMult": [
+        0.30000001192092896
+      ],
+      "SpecularFalloffMult": [
+        200.0
+      ],
+      "SpecularFresnel": [
+        0.7900000214576721
+      ],
+      "specMapIntMask": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "params_after": {
+    "audit_shared": {
+      "SpecularIntensityMult": [
+        0.30000001192092896
+      ],
+      "SpecularFalloffMult": [
+        200.0
+      ],
+      "SpecularFresnel": [
+        0.3700000047683716
+      ],
+      "specMapIntMask": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "audit_low": {
+      "SpecularIntensityMult": [
+        0.30000001192092896
+      ],
+      "SpecularFalloffMult": [
+        200.0
+      ],
+      "SpecularFresnel": [
+        0.6299999952316284
+      ],
+      "specMapIntMask": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "audit_disabled": {
+      "SpecularIntensityMult": [
+        0.9100000262260437
+      ],
+      "SpecularFalloffMult": [
+        23.0
+      ],
+      "SpecularFresnel": [
+        0.8799999952316284
+      ],
+      "specMapIntMask": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "audit_other": {
+      "SpecularIntensityMult": [
+        0.30000001192092896
+      ],
+      "SpecularFalloffMult": [
+        200.0
+      ],
+      "SpecularFresnel": [
+        0.7900000214576721
+      ],
+      "specMapIntMask": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    }
+  }
+}

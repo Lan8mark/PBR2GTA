@@ -1,0 +1,18 @@
+{
+  "time": "2026-09-15T14:06:40.078619+00:00",
+  "script": "<WORKSPACE>/PBR2GTA_Repository\\build\\user-install-029\\live_check.py",
+  "response": {
+    "status": "ok",
+    "result": {
+      "pid": 16656,
+      "blender": "5.2.1 LTS",
+      "scene": "<USER_SCENE>.blend",
+      "installed_version": "0.2.9",
+      "loaded_live_calibration": true,
+      "loaded_selection_adapter": true,
+      "busy": false,
+      "export_operator": "bl_ext.user_default.sollumz.sollumz_operators",
+      "auto_detect_operator": "PBR2GTA_OT_detect_texture_set"
+    }
+  }
+}

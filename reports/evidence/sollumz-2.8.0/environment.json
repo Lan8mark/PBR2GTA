@@ -1,0 +1,19 @@
+{
+  "blender": "4.5.11 LTS",
+  "sollumz": [
+    2,
+    8,
+    0
+  ],
+  "deps": {
+    "szio": true,
+    "pymateria": true
+  },
+  "operator_properties": [
+    "rna_type",
+    "directory",
+    "direct_export",
+    "use_custom_settings",
+    "custom_settings"
+  ]
+}

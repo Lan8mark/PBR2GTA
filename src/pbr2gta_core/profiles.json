@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "0d08d5a9298de31d",
+  "profiles": {
+    "weapon": {
+      "profile_id": "WEAPON_R2_G2",
+      "shaders": [
+        "weapon_normal_spec_palette.sps",
+        "weapon_normal_spec_cutout_palette.sps",
+        "weapon_normal_spec_tnt.sps",
+        "weapon_normal_spec_detail_palette.sps",
+        "weapon_normal_spec_detail_tnt.sps"
+      ]
+    },
+    "default": {
+      "profile_id": "GENERIC_R2_A_LINEAR",
+      "drop_in_shaders": [
+        "normal_spec.sps",
+        "normal_spec_cutout.sps",
+        "normal_spec_alpha.sps",
+        "normal_spec_screendooralpha.sps",
+        "spec.sps",
+        "spec_alpha.sps",
+        "spec_screendooralpha.sps",
+        "gta_spec.sps",
+        "normal_spec_tnt.sps",
+        "normal_spec_cutout_tnt.sps",
+        "spec_tnt.sps",
+        "cutout_spec_tnt.sps",
+        "normal_spec_batch.sps",
+        "normal_spec_decal.sps",
+        "normal_spec_decal_nopuddle.sps",
+        "normal_spec_decal_tnt.sps",
+        "decal_normal_spec_um.sps",
+        "normal_spec_pxm.sps",
+        "normal_spec_pxm_tnt.sps",
+        "normal_spec_tnt_pxm.sps",
+        "normal_spec_dpm.sps",
+        "normal_spec_um.sps",
+        "normal_spec_wrinkle.sps",
+        "parallax_specmap.sps",
+        "spec_decal.sps",
+        "normal_spec_emissive.sps",
+        "normal_spec_reflect.sps",
+        "normal_spec_reflect_alpha.sps",
+        "spec_reflect.sps",
+        "spec_reflect_alpha.sps",
+        "glass_normal_spec_reflect.sps",
+        "normal_spec_cubemap_reflect.sps",
+        "normal_spec_reflect_emissivenight.sps",
+        "normal_spec_reflect_emissivenight_alpha.sps",
+        "glass_env.sps",
+        "glass_breakable.sps",
+        "glass_breakable_screendooralpha.sps",
+        "glass_spec.sps",
+        "glass_displacement.sps",
+        "cloth_normal_spec.sps",
+        "cloth_normal_spec_cutout.sps",
+        "cloth_normal_spec_alpha.sps",
+        "cloth_normal_spec_tnt.sps",
+        "grass_fur.sps",
+        "grass_fur_mask.sps",
+        "mirror_crack.sps",
+        "mirror_default.sps"
+      ],
+      "mask_required_shaders": [
+        "spec_twiddle_tnt.sps",
+        "normal_spec_reflect_decal.sps",
+        "spec_reflect_decal.sps",
+        "normal_spec_decal_pxm.sps",
+        "weapon_normal_spec_alpha.sps"
+      ]
+    }
+  }
+}

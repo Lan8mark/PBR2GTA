@@ -1,0 +1,11 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.html text eol=lf
+*.png binary
+*.jpg binary
+*.webp binary
+
+# Evidence hashes must survive Windows checkouts.
+reports/evidence/** text eol=lf

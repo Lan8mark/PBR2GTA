@@ -1,0 +1,56 @@
+{
+  "shaders": 296,
+  "layouts": 1776,
+  "errors": [],
+  "missing_translations": [],
+  "longest": [
+    {
+      "shader": "sky_system.sps",
+      "lang": "RU",
+      "section": "VALUES",
+      "lines": 126
+    },
+    {
+      "shader": "clouds_altitude.sps",
+      "lang": "RU",
+      "section": "VALUES",
+      "lines": 98
+    },
+    {
+      "shader": "clouds_anim.sps",
+      "lang": "RU",
+      "section": "VALUES",
+      "lines": 98
+    },
+    {
+      "shader": "clouds_animsoft.sps",
+      "lang": "RU",
+      "section": "VALUES",
+      "lines": 98
+    },
+    {
+      "shader": "clouds_soft.sps",
+      "lang": "RU",
+      "section": "VALUES",
+      "lines": 89
+    },
+    {
+      "shader": "sky_system.sps",
+      "lang": "EN",
+      "section": "VALUES",
+      "lines": 86
+    },
+    {
+      "shader": "clouds_fog.sps",
+      "lang": "RU",
+      "section": "VALUES",
+      "lines": 85
+    },
+    {
+      "shader": "clouds_fast.sps",
+      "lang": "RU",
+      "section": "VALUES",
+      "lines": 83
+    }
+  ]
+}

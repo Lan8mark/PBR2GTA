@@ -1,0 +1,13 @@
+{
+  "sha256": "4c902534f69a85763a7a588faac81b5ea744eed2bffb990f1d64924c7cbdbdb3",
+  "installs": [
+    {
+      "path": "source://pbr2gta",
+      "files": 235
+    },
+    {
+      "path": "build\\preview-fix-027\\profile\\extensions\\user_default\\pbr2gta",
+      "files": 235
+    }
+  ]
+}

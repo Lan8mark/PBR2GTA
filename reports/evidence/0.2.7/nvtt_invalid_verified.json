@@ -1,0 +1,9 @@
+{
+  "returned": [
+    "CANCELLED"
+  ],
+  "nvtt_error": "NVTT could not run. Select nvcompress.exe from a working NVIDIA Texture Tools installation.",
+  "hash_empty": true,
+  "running": false,
+  "pending": false
+}

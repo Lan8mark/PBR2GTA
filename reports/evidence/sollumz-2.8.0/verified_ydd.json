@@ -1,0 +1,140 @@
+{
+  "status": [
+    "FINISHED"
+  ],
+  "error": "Converting py args to operator properties:: keyword \"target_formats\" unrecognized",
+  "files": [],
+  "readback": {},
+  "params_before": {
+    "audit_shared": {
+      "SpecularIntensityMult": [
+        0.9100000262260437
+      ],
+      "SpecularFalloffMult": [
+        23.0
+      ],
+      "SpecularFresnel": [
+        0.8799999952316284
+      ],
+      "specMapIntMask": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "audit_low": {
+      "SpecularIntensityMult": [
+        0.9100000262260437
+      ],
+      "SpecularFalloffMult": [
+        23.0
+      ],
+      "SpecularFresnel": [
+        0.8799999952316284
+      ],
+      "specMapIntMask": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "audit_disabled": {
+      "SpecularIntensityMult": [
+        0.9100000262260437
+      ],
+      "SpecularFalloffMult": [
+        23.0
+      ],
+      "SpecularFresnel": [
+        0.8799999952316284
+      ],
+      "specMapIntMask": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "audit_other": {
+      "SpecularIntensityMult": [
+        0.30000001192092896
+      ],
+      "SpecularFalloffMult": [
+        200.0
+      ],
+      "SpecularFresnel": [
+        0.7900000214576721
+      ],
+      "specMapIntMask": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "params_after": {
+    "audit_shared": {
+      "SpecularIntensityMult": [
+        0.9100000262260437
+      ],
+      "SpecularFalloffMult": [
+        23.0
+      ],
+      "SpecularFresnel": [
+        0.8799999952316284
+      ],
+      "specMapIntMask": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "audit_low": {
+      "SpecularIntensityMult": [
+        0.9100000262260437
+      ],
+      "SpecularFalloffMult": [
+        23.0
+      ],
+      "SpecularFresnel": [
+        0.8799999952316284
+      ],
+      "specMapIntMask": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "audit_disabled": {
+      "SpecularIntensityMult": [
+        0.9100000262260437
+      ],
+      "SpecularFalloffMult": [
+        23.0
+      ],
+      "SpecularFresnel": [
+        0.8799999952316284
+      ],
+      "specMapIntMask": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "audit_other": {
+      "SpecularIntensityMult": [
+        0.30000001192092896
+      ],
+      "SpecularFalloffMult": [
+        200.0
+      ],
+      "SpecularFresnel": [
+        0.7900000214576721
+      ],
+      "specMapIntMask": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "case": "preview",
+  "running": false,
+  "pending": false,
+  "error": null,
+  "selection": [
+    "audit_other_model"
+  ],
+  "params": {
+    "audit_shared": {
+      "SpecularIntensityMult": [
+        0.9100000262260437
+      ],
+      "SpecularFalloffMult": [
+        23.0
+      ],
+      "SpecularFresnel": [
+        0.8799999952316284
+      ],
+      "specMapIntMask": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "audit_low": {
+      "SpecularIntensityMult": [
+        0.9100000262260437
+      ],
+      "SpecularFalloffMult": [
+        23.0
+      ],
+      "SpecularFresnel": [
+        0.8799999952316284
+      ],
+      "specMapIntMask": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "audit_disabled": {
+      "SpecularIntensityMult": [
+        0.9100000262260437
+      ],
+      "SpecularFalloffMult": [
+        23.0
+      ],
+      "SpecularFresnel": [
+        0.8799999952316284
+      ],
+      "specMapIntMask": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    "audit_other": {
+      "SpecularIntensityMult": [
+        0.30000001192092896
+      ],
+      "SpecularFalloffMult": [
+        200.0
+      ],
+      "SpecularFresnel": [
+        0.7900000214576721
+      ],
+      "specMapIntMask": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "files": [
+    "audit_other_diffuse.dds",
+    "audit_other_normal.dds",
+    "audit_other_specular.dds"
+  ],
+  "generated_images": [
+    {
+      "name": "PBR2GTA::audit_other_diffuse.dds",
+      "users": 1,
+      "path": "source://audit_other_diffuse.dds"
+    },
+    {
+      "name": "PBR2GTA::audit_other_normal.dds",
+      "users": 1,
+      "path": "source://audit_other_normal.dds"
+    },
+    {
+      "name": "PBR2GTA::audit_other_specular.dds",
+      "users": 1,
+      "path": "source://audit_other_specular.dds"
+    }
+  ]
+}

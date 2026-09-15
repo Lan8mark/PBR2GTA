@@ -1,0 +1,21 @@
+{
+  "sha256": "b27f5802f6e5f7f83f3b62b44a9e8a02280527bd33e091c2732771bd1d82928b",
+  "installations": [
+    {
+      "installed": "<USER_PROFILE>\\AppData\\Roaming\\Blender Foundation\\Blender\\5.2\\extensions\\user_default\\pbr2gta",
+      "files_verified": 232,
+      "mismatches": []
+    },
+    {
+      "installed": "build\\preview-fix-027\\profile\\extensions\\user_default\\pbr2gta",
+      "files_verified": 232,
+      "mismatches": []
+    },
+    {
+      "installed": "build\\minimum-027\\profile\\extensions\\user_default\\pbr2gta",
+      "files_verified": 232,
+      "mismatches": []
+    }
+  ],
+  "nvtt_bundled": false
+}

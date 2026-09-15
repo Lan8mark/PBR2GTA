@@ -1,0 +1,11 @@
+{
+  "all_files_restored": true,
+  "images_restored": true,
+  "parameters_restored": true,
+  "before": {
+    "audit_other_diffuse.dds": "028f322644d0b50ab7b2f4d2211f4cb47c325ff33cacf2386be6a88bffab7f30",
+    "audit_separate.ydr": "b895a1f36357133b8771e26d807593a2b8e5ab76c928ab722c95823a20631374",
+    "audit_separate.ytd.xml": "5fb6903e31435ac102cdd1ada83caafa77d07490895ac4142576980404273465",
+    "notes.txt": "531bbd6081214cfe0e91196abc536da5ccaafb63b08bb53976954286c503efba"
+  }
+}

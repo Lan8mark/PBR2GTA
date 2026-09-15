@@ -1,0 +1,103 @@
+{
+  "passed": true,
+  "cycles": 15,
+  "unused_images": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "cleanup_observations": [
+    {
+      "preview_job": false,
+      "before": 3,
+      "after": 0
+    },
+    {
+      "preview_job": false,
+      "before": 3,
+      "after": 0
+    },
+    {
+      "preview_job": false,
+      "before": 3,
+      "after": 0
+    },
+    {
+      "preview_job": false,
+      "before": 3,
+      "after": 0
+    },
+    {
+      "preview_job": false,
+      "before": 3,
+      "after": 0
+    },
+    {
+      "preview_job": false,
+      "before": 3,
+      "after": 0
+    },
+    {
+      "preview_job": false,
+      "before": 3,
+      "after": 0
+    },
+    {
+      "preview_job": false,
+      "before": 3,
+      "after": 0
+    },
+    {
+      "preview_job": false,
+      "before": 3,
+      "after": 0
+    },
+    {
+      "preview_job": false,
+      "before": 3,
+      "after": 0
+    },
+    {
+      "preview_job": false,
+      "before": 3,
+      "after": 0
+    },
+    {
+      "preview_job": false,
+      "before": 3,
+      "after": 0
+    },
+    {
+      "preview_job": true,
+      "before": 3,
+      "after": 3
+    },
+    {
+      "preview_job": false,
+      "before": 3,
+      "after": 0
+    },
+    {
+      "preview_job": false,
+      "before": 3,
+      "after": 0
+    },
+    {
+      "preview_job": false,
+      "before": 3,
+      "after": 0
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "schema": "pbr2gta.shader-binary-aliases.v1",
+  "groups": [
+    {
+      "binary_alias_id": "BINARY_ALIAS_0001",
+      "members": [
+        "trees_normal_diffspec.sps",
+        "trees_normal_spec.sps"
+      ],
+      "evidence_id": "character_vegetation.cv_alias_exact",
+      "basis": "Active FXC payloads are byte-for-byte identical; runtime mathematics is identical."
+    },
+    {
+      "binary_alias_id": "BINARY_ALIAS_0002",
+      "members": [
+        "trees_normal_diffspec_tnt.sps",
+        "trees_normal_spec_tnt.sps"
+      ],
+      "evidence_id": "character_vegetation.cv_alias_exact",
+      "basis": "Active TNT FXC payloads are byte-for-byte identical."
+    }
+  ]
+}

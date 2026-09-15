@@ -1,0 +1,26 @@
+{
+  "status": [
+    "FINISHED"
+  ],
+  "files": [
+    "audit_dictionary.ydd",
+    "audit_dictionary.ydd.xml",
+    "audit_dictionary.ytd.xml",
+    "audit_low_diffuse.dds",
+    "audit_low_normal.dds",
+    "audit_low_specular.dds",
+    "audit_shared_diffuse.dds",
+    "audit_shared_normal.dds",
+    "audit_shared_specular.dds",
+    "audit_dictionary\\audit_low_diffuse.dds",
+    "audit_dictionary\\audit_low_normal.dds",
+    "audit_dictionary\\audit_low_specular.dds",
+    "audit_dictionary\\audit_shared_diffuse.dds",
+    "audit_dictionary\\audit_shared_normal.dds",
+    "audit_dictionary\\audit_shared_specular.dds"
+  ],
+  "readback": true,
+  "disabled_preserved": true,
+  "preferences_restored": true,
+  "experimental_only": true
+}

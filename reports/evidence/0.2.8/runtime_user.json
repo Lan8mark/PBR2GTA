@@ -1,0 +1,14 @@
+{
+  "time": "2026-09-14T21:07:19.475212+00:00",
+  "script": "<WORKSPACE>/PBR2GTA_Repository\\build\\verified-0.2.8\\runtime_user.py",
+  "response": {
+    "status": "ok",
+    "result": {
+      "pid": 20612,
+      "version": "0.2.8",
+      "operator": "PBR2GTA_OT_detect_texture_set",
+      "busy": false,
+      "file": ""
+    }
+  }
+}

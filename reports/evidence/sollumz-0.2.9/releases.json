@@ -1,0 +1,65 @@
+[
+  {
+    "version": "2.7.0",
+    "url": "https://github.com/Sollumz/Sollumz/releases/download/v2.7.0/Sollumz.zip",
+    "sha256": "b4790847f4e192381d6277e4611cc75fb27538787983744574385c5a88f881ce",
+    "dependencies": []
+  },
+  {
+    "version": "2.7.1",
+    "url": "https://github.com/Sollumz/Sollumz/releases/download/v2.7.1/Sollumz.zip",
+    "sha256": "0d444a22212494de2f7b2bb95747ec9ecbb858cd0e4c9b02b45ee1b84042cde8",
+    "dependencies": []
+  },
+  {
+    "version": "2.7.2",
+    "url": "https://github.com/Sollumz/Sollumz/releases/download/v2.7.2/Sollumz.zip",
+    "sha256": "744b6227064e33509e904c2e3bc66a0cc5645dda4cf18d91260e5fa694d2e488",
+    "dependencies": []
+  },
+  {
+    "version": "2.8.0",
+    "url": "https://github.com/Sollumz/Sollumz/releases/download/v2.8.0/Sollumz.zip",
+    "sha256": "75732b875e9bf9c72aca31e5763a47f10fbfdb04676b3b0fe73eb825b874542b",
+    "dependencies": [
+      "szio==1.0.0",
+      "pymateria==0.1.0"
+    ]
+  },
+  {
+    "version": "2.8.1",
+    "url": "https://github.com/Sollumz/Sollumz/releases/download/v2.8.1/Sollumz.zip",
+    "sha256": "7bb585299156811fb2ecd941113429c579f7c0ad1222d27bef3520111733a5ec",
+    "dependencies": [
+      "szio==1.1.0",
+      "pymateria==0.1.1"
+    ]
+  },
+  {
+    "version": "2.8.2",
+    "url": "https://github.com/Sollumz/Sollumz/releases/download/v2.8.2/Sollumz.zip",
+    "sha256": "9c04d41ac0d965744b8dc96d9acce75b736f60c9ebcce57e0ce9538598491cad",
+    "dependencies": [
+      "szio==1.1.0",
+      "pymateria==0.1.1"
+    ]
+  },
+  {
+    "version": "2.8.3",
+    "url": "https://github.com/Sollumz/Sollumz/releases/download/v2.8.3/Sollumz.zip",
+    "sha256": "bdf99c15a370602e35c73e57f26a38d1b40e3ae74ffb36e6bc3fce8cb62ec609",
+    "dependencies": [
+      "szio==1.2.0",
+      "pymateria==0.1.1"
+    ]
+  },
+  {
+    "version": "2.9.0",
+    "url": "https://github.com/Sollumz/Sollumz/releases/download/v2.9.0/Sollumz.zip",
+    "sha256": "c30f96d4c05ca74ca075eb5fdbcfbf08441498ca03328eb10fff595b4a4acd49",
+    "dependencies": [
+      "szio==1.3.0.dev9",
+      "pymateria==0.2.0"
+    ]
+  }
+]

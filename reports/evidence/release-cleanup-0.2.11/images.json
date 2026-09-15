@@ -1,0 +1,17 @@
+[
+  {
+    "file": "after.jpg",
+    "pixels_unchanged": true,
+    "removed_bytes": 818
+  },
+  {
+    "file": "before.jpg",
+    "pixels_unchanged": true,
+    "removed_bytes": 818
+  },
+  {
+    "file": "blender-reference.jpg",
+    "pixels_unchanged": true,
+    "removed_bytes": 818
+  }
+]

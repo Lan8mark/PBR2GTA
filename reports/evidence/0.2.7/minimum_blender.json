@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "blender": "4.2.0",
+  "installed": "<WORKSPACE>/PBR2GTA_Repository\\build\\minimum-027\\profile\\extensions\\user_default\\pbr2gta\\__init__.py",
+  "version": "0.2.7",
+  "nvtt": "(WindowsPath('C:/Program Files/NVIDIA Corporation/NVIDIA Texture Tools/nvcompress.exe'), 'ec00d286a51feaaa454c661962190750b6155adb6681b00dca4429e492d4d978')",
+  "profiles_valid": true,
+  "copy_after_reload": true,
+  "xml_export": true,
+  "native_unavailable_fallback": true,
+  "all_lod_fresnel": [
+    0.8799999952316284,
+    0.3700000047683716,
+    0.3700000047683716,
+    0.6299999952316284
+  ]
+}
